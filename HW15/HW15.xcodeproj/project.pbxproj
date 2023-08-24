@@ -13,6 +13,7 @@
 		FA880E2E2A952010006AC1BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA880E2C2A952010006AC1BC /* Main.storyboard */; };
 		FA880E302A952013006AC1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA880E2F2A952013006AC1BC /* Assets.xcassets */; };
 		FA880E332A952013006AC1BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA880E312A952013006AC1BC /* LaunchScreen.storyboard */; };
+		FA880E3E2A95240E006AC1BC /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA880E3D2A95240E006AC1BC /* SignInStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA880E2F2A952013006AC1BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA880E322A952013006AC1BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA880E342A952013006AC1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA880E3D2A95240E006AC1BC /* SignInStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		FA880E252A952010006AC1BC /* HW15 */ = {
 			isa = PBXGroup;
 			children = (
-				FA880E262A952010006AC1BC /* AppDelegate.swift */,
-				FA880E282A952010006AC1BC /* SceneDelegate.swift */,
-				FA880E2A2A952010006AC1BC /* ViewController.swift */,
-				FA880E2C2A952010006AC1BC /* Main.storyboard */,
+				FA880E3C2A952385006AC1BC /* SignInUpApp */,
+				FA880E3B2A952363006AC1BC /* view */,
 				FA880E2F2A952013006AC1BC /* Assets.xcassets */,
-				FA880E312A952013006AC1BC /* LaunchScreen.storyboard */,
 				FA880E342A952013006AC1BC /* Info.plist */,
+				FA880E3A2A952353006AC1BC /* App */,
 			);
 			path = HW15;
+			sourceTree = "<group>";
+		};
+		FA880E3A2A952353006AC1BC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA880E262A952010006AC1BC /* AppDelegate.swift */,
+				FA880E282A952010006AC1BC /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA880E3B2A952363006AC1BC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FA880E2C2A952010006AC1BC /* Main.storyboard */,
+				FA880E3D2A95240E006AC1BC /* SignInStoryboard.storyboard */,
+				FA880E312A952013006AC1BC /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FA880E3C2A952385006AC1BC /* SignInUpApp */ = {
+			isa = PBXGroup;
+			children = (
+				FA880E2A2A952010006AC1BC /* ViewController.swift */,
+			);
+			path = SignInUpApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +155,7 @@
 				FA880E332A952013006AC1BC /* LaunchScreen.storyboard in Resources */,
 				FA880E302A952013006AC1BC /* Assets.xcassets in Resources */,
 				FA880E2E2A952010006AC1BC /* Main.storyboard in Resources */,
+				FA880E3E2A95240E006AC1BC /* SignInStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
